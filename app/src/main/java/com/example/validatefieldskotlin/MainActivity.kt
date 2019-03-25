@@ -48,6 +48,9 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this, SecondActivity::class.java)
 
+            intent.putExtra("cpf", editTextId.text.toString())
+            intent.putExtra("phone", editTextPhone.text.toString())
+            intent.putExtra("email", editTextEmail.text.toString())
 
 
             startActivity(intent)
@@ -66,6 +69,10 @@ class MainActivity : AppCompatActivity() {
     fun isValidPhone(): Boolean = editTextPhone.text.isNotEmpty() &&
             Patterns.PHONE.matcher(editTextPhone.text).matches()
 
+
+}
+
+private fun Intent.putExtra(s: String, editTextId: EditText?) {
 
 }
 
