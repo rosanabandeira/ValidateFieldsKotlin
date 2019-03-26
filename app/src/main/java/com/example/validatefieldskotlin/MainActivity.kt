@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("email", editTextEmail.text.toString())
 
 
+
             startActivity(intent)
 
 
@@ -71,11 +72,6 @@ class MainActivity : AppCompatActivity() {
 
 
 }
-
-private fun Intent.putExtra(s: String, editTextId: EditText?) {
-
-}
-
 
 
 

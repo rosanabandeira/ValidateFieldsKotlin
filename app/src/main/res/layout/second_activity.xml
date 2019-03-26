@@ -29,9 +29,9 @@
 
 
             <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="131dp"
-                    tools:src="@tools:sample/avatars"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    tools:src="@drawable/lulu"
                     android:id="@+id/imageView"
                     app:layout_constraintStart_toStartOf="parent"
                     android:layout_marginLeft="8dp"
