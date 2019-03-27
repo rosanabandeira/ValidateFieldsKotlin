@@ -27,17 +27,17 @@ class MainActivity : AppCompatActivity() {
                 editTextId.text.toString()
 
             } else {
-                editTextId.setError("CPF Invalido")
+                editTextId.setError("CPF Inválido")
                 return@setOnClickListener
             }
             if (!isValidPhone()) {
-                editTextPhone.setError("Tefone inválido")
+                editTextPhone.setError("Telefone Inválido")
                 return@setOnClickListener
             } else {
                 editTextPhone.text.toString()
             }
             if (!isValidEmail()) {
-                editTextEmail.setError("Email inválido")
+                editTextEmail.setError("Email Inválido")
                 return@setOnClickListener
             } else {
                 editTextEmail.text.toString()
