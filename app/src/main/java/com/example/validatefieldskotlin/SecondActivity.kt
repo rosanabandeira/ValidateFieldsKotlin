@@ -20,7 +20,7 @@ class SecondActivity : AppCompatActivity() {
         cpf = intent.getStringExtra("cpf")
         phone = intent.getStringExtra("phone")
         email = intent.getStringExtra("email")
-        Log.i("pegou email", email)
+        //Log.i("pegou email", email)
 
         textViewCpf.text = cpf
         textViewPhone.text = phone
